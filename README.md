@@ -3,13 +3,13 @@
 # E-mail: junior.andrade.360@hotmail.com
 # Contato: (61)98636-4434
 
-Desafio inmetrics de sistema web
-# Selenium
-# Cucumber
-# Java
-# Allure-Report
-# Versão Chrome: 84.0.4147.89 (Versão oficial) 64 bits 
-# Chromedriver: 84.0.4147.30 
+# Desafio inmetrics de sistema web
+Selenium
+Cucumber
+Java
+Allure-Report
+Versão Chrome: 84.0.4147.89 (Versão oficial) 64 bits 
+Chromedriver: 84.0.4147.30 
 
 # INFORMAÇÕES PARA EXECUTAR O REPORT DO ALLURE:
 Pré-requisitos:
