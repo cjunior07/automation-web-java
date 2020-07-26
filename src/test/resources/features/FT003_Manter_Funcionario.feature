@@ -10,7 +10,7 @@ Funcionalidade: Manter Funcionario
   Cenario: Validar campo obrigatorio NOME
     Quando clico em novo funcionario
     E preencho o campo NOME com ""
-    E preencho o campo CPF com valor valido
+    E preencho o campo CPF com "162.027.060-90"
     E seleciono o SEXO com "Masculino"
     E preencho o campo ADMISSAO com "12/12/2021"
     E preencho o campo CARGO com "Analista de Teste"
@@ -36,7 +36,7 @@ Funcionalidade: Manter Funcionario
   Cenario: Validar campo obrigatorio SEXO
     Quando clico em novo funcionario
     E preencho o campo NOME com "Claudio Junior"
-    E preencho o campo CPF com valor valido
+    E preencho o campo CPF com "162.027.060-90"
     E seleciono o SEXO com ""
     E preencho o campo ADMISSAO com "12/12/2021"
     E preencho o campo CARGO com "Analista de Teste"
@@ -49,7 +49,7 @@ Funcionalidade: Manter Funcionario
   Cenario: Validar campo obrigatorio ADMISSAO
     Quando clico em novo funcionario
     E preencho o campo NOME com "Claudio Junior"
-    E preencho o campo CPF com valor valido
+   E preencho o campo CPF com "162.027.060-90"
     E seleciono o SEXO com "Masculino"
     E preencho o campo ADMISSAO com ""
     E preencho o campo CARGO com "Analista de Teste"
@@ -62,7 +62,7 @@ Funcionalidade: Manter Funcionario
   Cenario: Validar campo obrigatorio CARGO
     Quando clico em novo funcionario
     E preencho o campo NOME com "Claudio Junior"
-    E preencho o campo CPF com valor valido
+    E preencho o campo CPF com "162.027.060-90"
     E seleciono o SEXO com "Masculino"
     E preencho o campo ADMISSAO com "12/12/2021"
     E preencho o campo CARGO com ""
@@ -75,7 +75,7 @@ Funcionalidade: Manter Funcionario
   Cenario: Validar campo obrigatorio SALARIO
     Quando clico em novo funcionario
     E preencho o campo NOME com "Claudio Junior"
-    E preencho o campo CPF com valor valido
+    E preencho o campo CPF com "162.027.060-90"
     E seleciono o SEXO com "Masculino"
     E preencho o campo ADMISSAO com "12/12/2021"
     E preencho o campo CARGO com "Analista de Teste"
@@ -88,7 +88,7 @@ Funcionalidade: Manter Funcionario
   Cenario: Validar campo obrigatorio CONTRATACAO
     Quando clico em novo funcionario
     E preencho o campo NOME com "Claudio Junior"
-    E preencho o campo CPF com valor valido
+    E preencho o campo CPF com "162.027.060-90"
     E seleciono o SEXO com "Masculino"
     E preencho o campo ADMISSAO com "12/12/2021"
     E preencho o campo CARGO com "Analista de Teste"

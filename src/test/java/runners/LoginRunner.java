@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		features = "src/test/resources/features/",
 		glue = "stepsDefinitions",
 		dryRun = false,
-		tags = {"@CE001_Login_Validar_Campo_Usuario"},
+		tags = {"@FT003_Manter_Funcionario"},
 		snippets = SnippetType.CAMELCASE,
 		strict = true,
 		monochrome = true
