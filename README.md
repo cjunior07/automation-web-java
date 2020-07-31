@@ -1,24 +1,29 @@
-# Desafio-inmetrics-web-java
-# Autor: Cláudio da Luz Andrade Júnior
-# E-mail: junior.andrade.360@hotmail.com
-# Contato: (61)98636-4434
+# Desafio-inmetrics-Web-Java
+Projeto de automação de teste web, utilizando Java como linguagem principal com as ferramentas cucumber e selenium.
 
-# Desafio inmetrics de sistema web
-Selenium,
-Cucumber,
-Java,
-Allure-Report,
-Versão Chrome: 84.0.4147.89 (Versão oficial) 64 bits, 
-Chromedriver: 84.0.4147.30. 
+## Autor: 
+|Nome|email|Telefone|
+| -------- | -------- | -------- |
+|Claudio da L. Andrade Júnior|junior.andrade.360@hotmail.com|(61)98636-4434|
 
-# INFORMAÇÕES PARA EXECUTAR O REPORT DO ALLURE:
-Pré-requisitos:
-1- Nodejs,
-2- Java 8 ou superior
+### INFORMAÇÕES PARA EXECUTAR O REPORT DO ALLURE:
 
-# Caso não tenha o allure instalado, executar o seguinte comando:
-1 - npm install -g allure-commandline
+#### Pré-requisitos: 
+1. Nodejs
+2. Java 8 ou superior
 
-# Para abrir o report do allure, executar o seguinte comando:
-1 - cd caminho\Desafio-inmetrics-web-java\target,
-2 - allure serve allure-reports
+##### Caso não tenha o allure instalado, executar o seguinte comando:
+```
+npm install -g allure-commandline
+```
+#### Para abrir o report do allure, executar o seguinte comando:
+```
+cd caminho\Desafio-inmetrics-web-java\target
+allure serve allure-reports
+```
+### Pasta TARGET
+É gerado na pasta target:
+1. Report do allure
+2. Screenshots
+
+> Status do Projeto: Concluido :heavy_check_mark:
