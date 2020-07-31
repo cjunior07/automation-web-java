@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = {"pretty", "html:target/cucumber-report", "json:target/cucumber-report/cucumber.json", "io.qameta.allure.cucumber2jvm.AllureCucumber2Jvm"},
 		features = "src/test/resources/features/",
 		glue = "stepsDefinitions",
-		dryRun = false,
+		dryRun = true,
 		tags = {"@All"},
 		snippets = SnippetType.CAMELCASE,
 		strict = true,

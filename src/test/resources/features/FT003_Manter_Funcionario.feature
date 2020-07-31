@@ -49,7 +49,7 @@ Funcionalidade: Manter Funcionario
   Cenario: Validar campo obrigatorio ADMISSAO
     Quando clico em novo funcionario
     E preencho o campo NOME com "Claudio Junior"
-   E preencho o campo CPF com "162.027.060-90"
+    E preencho o campo CPF com "162.027.060-90"
     E seleciono o SEXO com "Masculino"
     E preencho o campo ADMISSAO com ""
     E preencho o campo CARGO com "Analista de Teste"
@@ -104,8 +104,8 @@ Funcionalidade: Manter Funcionario
     E preencho o campo CPF com "00000000000"
     Quando clico em enviar
     Entao vejo o alerta de CPF invalido
-
-  @CE009_MF_Cadastrar_Funcionario
+  
+  @CE009_MF_Cadastrar_Funcionario 
   Cenario: Cadastrar Novo Funcionario
     Quando clico em novo funcionario
     E preencho o NOME com "Claudio Junior"
@@ -116,11 +116,13 @@ Funcionalidade: Manter Funcionario
     E preencho o campo SALARIO com "1200000"
     E seleciono o TIPO DE CONTRATACAO com "CLT"
     Quando clico em enviar
+    E pesquiso pelo fucnionario "Claudio Junior"
     Entao vejo a mensagem de sucesso e o funcionario listado
 
-  @CE010_MF_Editar_Funcionario_Cadastrado
+  @CE010_MF_Editar_Funcionario_Cadastrado 
   Cenario: Editar Funcionario Cadastrado
-    Quando clico em editar no funcionario "Claudio Junior"
+    Quando pesquiso pelo fucnionario "Claudio Junior"
+    E clico em editar no funcionario "Claudio Junior"
     E preencho o NOME com "Claudio da Luz Andrade Junior"
     E preencho o campo CPF com valor valido
     E seleciono o SEXO com "Masculino"
@@ -129,9 +131,11 @@ Funcionalidade: Manter Funcionario
     E preencho o campo SALARIO com "1200000"
     E seleciono o TIPO DE CONTRATACAO com "CLT"
     Quando clico em enviar
+    E pesquiso pelo fucnionario "Claudio da Luz Andrade Junior"
     Entao vejo o funcionario editado listado
 
-  @CE011_MF_Remover_Funcionario_Editado
+  @CE011_MF_Remover_Funcionario_Editado 
   Cenario: Remover funcionario editado
-    Quando clico em excluir no funcionario "Claudio da Luz Andrade Junior"
+    Quando pesquiso pelo fucnionario "Claudio da Luz Andrade Junior"
+    E clico em excluir no funcionario "Claudio da Luz Andrade Junior"
     Entao vejo mensagem de sucesso e valido a exclusao do funcionario

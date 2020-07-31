@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		features = "src/test/resources/features/",
 		glue = "stepsDefinitions",
 		dryRun = false,
-		tags = {"@CE011_MF_Remover_Funcionario_Editado"},
+		tags = {"@a"},
 		snippets = SnippetType.CAMELCASE,
 		strict = true,
 		monochrome = true

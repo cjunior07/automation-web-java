@@ -27,6 +27,9 @@ public class ManterFuncionarioPage {
 
 	@FindBy(xpath = "//*[text()[contains(.,'Novo Funcionário')]]")
 	private WebElement btnNovoFuncionario;
+	
+	@FindBy(xpath = "//input[@type='search']")
+	private WebElement inputSearch;
 
 	@FindBy(xpath = "//*[contains(@class, \"cadastrar\")]")
 	private WebElement btnEnviar;
@@ -61,6 +64,10 @@ public class ManterFuncionarioPage {
 
 	public void clicarBotaoEnviar() throws Exception {
 		btnEnviar.click();
+	}
+	
+	public void pesquisarFuncionario(String nome) {
+		inputSearch.sendKeys(nome);
 	}
 
 	public void preencherCPF() throws Exception {

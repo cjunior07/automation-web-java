@@ -18,6 +18,11 @@ public class ManterFuncionarioSteps {
 	    LoginPage.informarSenha(senha);
 	    LoginPage.clicarBotaoEntre();
 	}
+	
+	@Quando("^pesquiso pelo fucnionario \"([^\"]*)\"$")
+	public void pesquisoPeloFucnionario(String nome) throws Exception {
+	    MTPage.pesquisarFuncionario(nome);
+	}
 
 	@Quando("^clico em novo funcionario$")
 	public void clicoEmNovoFuncionario() throws Exception {

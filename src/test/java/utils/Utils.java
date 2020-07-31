@@ -76,7 +76,6 @@ public class Utils {
 	public static File gerarScreenShot(Scenario scenario) {
 		final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 		scenario.embed(screenshot, "image/png");
-
 		File imagem = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {
 			FileUtils.copyFile(imagem,
